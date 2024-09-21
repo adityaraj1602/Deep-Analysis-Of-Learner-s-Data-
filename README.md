@@ -1,7 +1,3 @@
-# Let's create the README file as per the user's request.
-
-# Define the content of the README
-readme_content = """
 # Deep Analysis of Learners' Data
 
 ## Project Overview
@@ -21,10 +17,3 @@ This project focuses on the deep analysis of learners' data to identify patterns
 ## Conclusion
 This project demonstrates the use of data-driven methods to improve the educational experience, offering a foundation for better decision-making in online learning environments.
 """
-
-# Save the content to a README.md file
-readme_path = '/mnt/data/README.md'
-with open(readme_path, 'w') as readme_file:
-    readme_file.write(readme_content)
-
-readme_path
